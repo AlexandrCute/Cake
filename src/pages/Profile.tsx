@@ -3,23 +3,27 @@ import { FC, useEffect, useState } from "react";
 const Profile: FC = () => {
   const [profileData, setProfileData] = useState({
     login: "",
-    name: "",
-    surname: "",
+    firstName: "",
+    lastName: "",
     email: "",
-    age: "",
-    gender: "",
+    phone: "",
   });
 
   useEffect(() => {
-    const user = JSON.parse(localStorage.getItem("user") || "{}");
-    setProfileData({
-      login: user.login || "Не указано",
-      name: user.name || "Не указано",
-      surname: user.surname || "Не указано",
-      email: user.email || "Не указано",
-      age: user.age || "Не указано",
-      gender: user.gender || "Не указано",
-    });
+    const users = JSON.parse(localStorage.getItem("users") || "[]");
+    const loggedUser = users.find(
+      (user: { login: string | null }) =>
+        user.login === localStorage.getItem("username"),
+    );
+    if (loggedUser) {
+      setProfileData({
+        login: loggedUser.login || "Не указано",
+        firstName: loggedUser.firstName || "Не указано",
+        lastName: loggedUser.lastName || "Не указано",
+        email: loggedUser.email || "Не указано",
+        phone: loggedUser.phone || "Не указано",
+      });
+    }
   }, []);
 
   return (
@@ -39,23 +43,19 @@ const Profile: FC = () => {
             </tr>
             <tr>
               <td className="font-bold">Имя</td>
-              <td>{profileData.name}</td>
+              <td>{profileData.firstName}</td>
             </tr>
             <tr>
               <td className="font-bold">Фамилия</td>
-              <td>{profileData.surname}</td>
+              <td>{profileData.lastName}</td>
             </tr>
             <tr>
               <td className="font-bold">Email</td>
               <td>{profileData.email}</td>
             </tr>
             <tr>
-              <td className="font-bold">Возраст</td>
-              <td>{profileData.age}</td>
-            </tr>
-            <tr>
-              <td className="font-bold">Пол</td>
-              <td>{profileData.gender}</td>
+              <td className="font-bold">Телефон</td>
+              <td>{profileData.phone}</td>
             </tr>
           </tbody>
         </table>
