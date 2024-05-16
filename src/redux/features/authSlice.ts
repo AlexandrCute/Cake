@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { AuthSlice } from "../../models/AuthSlice";
+import { AuthSlice } from "@models/AuthSlice.ts";
 
 interface LoginProps {
   username: string;
@@ -23,14 +23,18 @@ export const authSlice = createSlice({
       return { ...state, modalOpen: action.payload };
     },
     doLogin: (state, action: PayloadAction<LoginProps>) => {
-      if (
-        action.payload.username === "dabrydnev" &&
-        action.payload.password === "123456"
-      ) {
-        localStorage.setItem("username", "dabrydnev");
+      const users = JSON.parse(localStorage.getItem("users") || "[]");
+      const user = users.find(
+        (user: { username: string; password: string }) =>
+          user.username === action.payload.username &&
+          user.password === action.payload.password,
+      );
+
+      if (user) {
+        localStorage.setItem("username", user.username);
         return {
           ...state,
-          username: "dabrydnev",
+          username: user.username,
           modalOpen: false,
           isLoggedIn: true,
         };

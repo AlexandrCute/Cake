@@ -42,7 +42,7 @@ function App() {
       <Footer />
       <Cart />
       <LoginModal />
-      <Register />
+      {/*<Register />*/}
     </Provider>
   );
 }

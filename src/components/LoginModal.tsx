@@ -1,16 +1,17 @@
 import { FC, FormEvent, useState } from "react";
 import { useAppSelector, useAppDispatch } from "../redux/hooks";
+
+import Register from "./Register";
 import { doLogin, updateModal } from "../redux/features/authSlice";
+
 import { FaUnlock } from "react-icons/fa";
 import { RiLockPasswordFill, RiUser3Fill } from "react-icons/ri";
-//import { GiArchiveRegister } from "react-icons/gi";
 import { RxCross1 } from "react-icons/rx";
-import Register from "./Register";
 
 const LoginModal: FC = () => {
-  const [clicked, setClicked] = useState(false);
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
+  const [clicked, setClicked] = useState(false);
   const dispatch = useAppDispatch();
   const open = useAppSelector((state) => state.authReducer.modalOpen);
 
@@ -31,7 +32,7 @@ const LoginModal: FC = () => {
             onClick={() => dispatch(updateModal(false))}
           />
           {clicked ? (
-            <Register /> // Отображаем форму регистрации, если clicked === true
+            <Register setClicked={setClicked} />
           ) : (
             <>
               <div className="flex mb-2 space-x-2 justify-center items-center">
