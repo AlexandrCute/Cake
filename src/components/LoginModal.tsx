@@ -45,7 +45,7 @@ const LoginModal: FC = () => {
                   <input
                     data-test="input-username"
                     type="text"
-                    placeholder="Логин... (dabrydnev)"
+                    placeholder="Логин..."
                     className="border w-full border-black py-2 px-8 rounded"
                     value={username}
                     onChange={(e) => setUsername(e.target.value)}
@@ -58,7 +58,7 @@ const LoginModal: FC = () => {
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                     type="password"
-                    placeholder="Пароль... (123456)"
+                    placeholder="Пароль..."
                     className="border w-full border-black py-2 px-8 rounded"
                   />
                   <RiLockPasswordFill className="absolute top-3 left-2 text-lg" />

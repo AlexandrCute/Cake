@@ -11,7 +11,7 @@ import CustomPopup from "./CustomPopup";
 const Navbar: FC = () => {
   const dispatch = useAppDispatch();
   const cartCount = useAppSelector(
-    (state) => state.cartReducer.cartItems.length
+    (state) => state.cartReducer.cartItems.length,
   );
   const username = useAppSelector((state) => state.authReducer.username);
   const { requireAuth } = useAuth();
@@ -28,16 +28,32 @@ const Navbar: FC = () => {
             Cake
           </Link>
           <div className="lg:flex justify-between hidden w-full max-w-[700px]">
-            <Link to="/about" className="text-2xl font-bold text-neutral-100 bg-cyan-500 px-4 rounded" data-test="about">
+            <Link
+              to="/about"
+              className="text-2xl font-bold text-white bg-blue-300 px-4 rounded"
+              data-test="about"
+            >
               О нас
             </Link>
-            <Link to="/promotions" className="text-2xl font-bold text-neutral-100 bg-cyan-500 px-4 rounded" data-test="promotions">
+            <Link
+              to="/promotions"
+              className="text-2xl font-bold text-white bg-blue-300 px-4 rounded"
+              data-test="promotions"
+            >
               Акции
             </Link>
-            <Link to="/delivery" className="text-2xl font-bold text-neutral-100 bg-cyan-500 px-4 rounded" data-test="delivery">
+            <Link
+              to="/delivery"
+              className="text-2xl font-bold text-white bg-blue-300 px-4 rounded"
+              data-test="delivery"
+            >
               Доставка
             </Link>
-            <Link to="/contacts" className="text-2xl font-bold text-neutral-100 bg-cyan-500 px-4 rounded" data-test="contacts">
+            <Link
+              to="/contacts"
+              className="text-2xl font-bold text-white bg-blue-300 px-4 rounded"
+              data-test="contacts"
+            >
               Контакты
             </Link>
           </div>

@@ -25,20 +25,22 @@ export const authSlice = createSlice({
     doLogin: (state, action: PayloadAction<LoginProps>) => {
       const users = JSON.parse(localStorage.getItem("users") || "[]");
       const user = users.find(
-        (user: { username: string; password: string }) =>
-          user.username === action.payload.username &&
+        (user: { login: string; password: string }) =>
+          user.login === action.payload.username &&
           user.password === action.payload.password,
       );
 
       if (user) {
-        localStorage.setItem("username", user.username);
+        localStorage.setItem("username", user.login);
+        localStorage.setItem("user", JSON.stringify(user));
         return {
           ...state,
-          username: user.username,
+          username: user.login,
           modalOpen: false,
           isLoggedIn: true,
         };
       } else {
+        alert("Неправильный логин или пароль");
         return state;
       }
     },

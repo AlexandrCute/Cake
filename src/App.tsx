@@ -1,23 +1,25 @@
 import { Provider } from "react-redux";
-import "./App.css";
-import { store } from "./redux/store";
-import Navbar from "./components/Navbar";
 import { Route, Routes } from "react-router-dom";
-import Home from "./pages/Home";
 import { Toaster } from "react-hot-toast";
-import Footer from "./components/Footer";
+
+import Navbar from "./components/Navbar";
 import Cart from "./components/Cart";
-import SingleProduct from "./pages/SingleProduct";
 import LoginModal from "./components/LoginModal";
-import Register from "./components/Register";
-import Wishlist from "./pages/Wishlist";
 import ProtectedRoute from "./components/ProtectedRoute";
+import Footer from "./components/Footer";
+
+import Home from "./pages/Home";
+import SingleProduct from "./pages/SingleProduct";
+import Wishlist from "./pages/Wishlist";
 import Profile from "./pages/Profile";
 import AllProducts from "./pages/AllProducts";
 import About from "./pages/About.tsx";
 import Delivery from "./pages/Delivery.tsx";
 import Promotions from "./pages/Promotions.tsx";
 import Contacts from "./pages/Contacts.tsx";
+
+import { store } from "./redux/store";
+import "./App.css";
 
 function App() {
   return (
@@ -42,7 +44,6 @@ function App() {
       <Footer />
       <Cart />
       <LoginModal />
-      {/*<Register />*/}
     </Provider>
   );
 }
