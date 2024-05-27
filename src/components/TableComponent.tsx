@@ -35,7 +35,7 @@ const ItemDetail: FC = () => {
                 </div>
                 <div style={{ ...contentStyle, ...contentInnerStyle(isCompositionOpen) }}>
                     <div style={{ opacity: isCompositionOpen ? '1' : '0', transition: 'opacity 1s ease', paddingBottom: '20px' }}>
-
+                        Здесь состав торта
                     </div>
                 </div>
             </div>
