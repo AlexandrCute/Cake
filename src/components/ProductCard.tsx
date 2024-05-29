@@ -17,6 +17,16 @@ const ProductCard: FC<Product> = ({
   category,
   rating,
   discountPercentage,
+  description,
+  brand,
+  stock,
+  compound,
+  calories,
+  squirrels,
+  fats,
+  carbohydrates,
+  weight,
+  bestBeforeDate,
 }) => {
   const dispatch = useAppDispatch();
   const { requireAuth } = useAuth();
@@ -32,7 +42,17 @@ const ProductCard: FC<Product> = ({
           rating,
           thumbnail,
           discountPercentage,
-        })
+          description,
+          brand,
+          stock,
+          compound,
+          calories,
+          squirrels,
+          fats,
+          carbohydrates,
+          weight,
+          bestBeforeDate,
+        }),
       );
       toast.success("Товар добавлен в корзину", {
         duration: 3000,

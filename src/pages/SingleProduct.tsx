@@ -1,22 +1,23 @@
-import { FC, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { useAppDispatch } from "../redux/hooks";
-import { addToCart, setCartState } from "../redux/features/cartSlice";
-import { Product } from "../models/Product";
-import RatingStar from "../components/RatingStar";
-import PriceSection from "../components/PriceSection";
-import toast from "react-hot-toast";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { FaHandHoldingDollar } from "react-icons/fa6";
+import { MdFavoriteBorder } from "react-icons/md";
+import toast from "react-hot-toast";
+
+import { Product } from "../models/Product";
+import { useAppDispatch } from "../redux/hooks";
+import useAuth from "../hooks/useAuth";
+import { addToCart, setCartState } from "../redux/features/cartSlice";
+import { addToWishlist } from "../redux/features/productSlice";
+import RatingStar from "../components/RatingStar";
+import PriceSection from "../components/PriceSection";
 import ProductList from "../components/ProductList";
 import Reviews from "../components/Reviews";
-import useAuth from "../hooks/useAuth";
-import { MdFavoriteBorder } from "react-icons/md";
-import { addToWishlist } from "../redux/features/productSlice";
 import ReviewForm from "@components/ReviewForm.tsx";
-import TableComponent from "@components/TableComponent";
+import { ProductComposition } from "@components/ProductComposition.tsx";
 
-const SingleProduct: FC = () => {
+const SingleProduct = () => {
   const dispatch = useAppDispatch();
   const { productID } = useParams();
   const [product, setProduct] = useState<Product>();
@@ -85,6 +86,14 @@ const SingleProduct: FC = () => {
             rating: product.rating,
             thumbnail: product.thumbnail,
             discountPercentage: product.discountPercentage,
+            description: product.description,
+            carbohydrates: product.carbohydrates,
+            compound: product.compound,
+            fats: product.fats,
+            weight: product.weight,
+            bestBeforeDate: product.bestBeforeDate,
+            calories: product.calories,
+            squirrels: product.squirrels,
           }),
         );
       toast.success("Товар добавлен в корзину", {
@@ -105,6 +114,14 @@ const SingleProduct: FC = () => {
             rating: product.rating,
             thumbnail: product.thumbnail,
             discountPercentage: product.discountPercentage,
+            description: product.description,
+            carbohydrates: product.carbohydrates,
+            compound: product.compound,
+            fats: product.fats,
+            weight: product.weight,
+            bestBeforeDate: product.bestBeforeDate,
+            calories: product.calories,
+            squirrels: product.squirrels,
           }),
         );
       dispatch(setCartState(true));
@@ -130,7 +147,7 @@ const SingleProduct: FC = () => {
             src={`.${selectedImg}`}
             alt="selected"
             className="max-w-full object-contain"
-            style={{ height: '24rem' }}
+            style={{ height: "24rem" }}
           />
         </div>
         <div className="flex flex-col px-2">
@@ -180,37 +197,43 @@ const SingleProduct: FC = () => {
           </div>
           <div className="container flex flex-col md:flex-row md:justify-between md:items-center md:gap-4 mt-4">
             <div className="feature flex items-center gap-3 text-lg md:w-1/3 lg:w-auto">
-              <img src="../public/control_quality.svg" alt="Контроль качества" className="icon" />
+              <img
+                src="../public/control_quality.svg"
+                alt="Контроль качества"
+                className="icon"
+              />
               <span>Контроль качества</span>
             </div>
             <div className="feature flex items-center gap-3 text-lg mt-4 md:mt-0 md:w-1/3 lg:w-auto">
-              <img src="../public/handmade.svg" alt="Ручная работа" className="icon" />
+              <img
+                src="../public/handmade.svg"
+                alt="Ручная работа"
+                className="icon"
+              />
               <span>Ручная работа</span>
             </div>
             <div className="feature flex items-center gap-3 text-lg mt-4 md:mt-0 md:w-1/3 lg:w-auto">
-              <img src="../public/natutal_products.svg" alt="Натуральные продукты" className="icon" />
+              <img
+                src="../public/natutal_products.svg"
+                alt="Натуральные продукты"
+                className="icon"
+              />
               <span>Натуральные продукты</span>
             </div>
           </div>
         </div>
       </div>
-
       <div>
-        <TableComponent />
+        <ProductComposition product={product} />
       </div>
-
       <div className="mt-8">
         <Reviews />
         <ReviewForm />
       </div>
-
       <hr className="mt-4" />
-
       <ProductList title="Похожие продукты" products={similar} />
-
       <br />
     </div>
-
   );
 };
 

@@ -1,5 +1,5 @@
 export interface Product {
-  id: number
+  id: number;
   title: string;
   images?: string[];
   price: number;
@@ -10,4 +10,11 @@ export interface Product {
   brand?: string;
   stock?: number;
   discountPercentage?: number;
+  compound: string;
+  calories?: number | string;
+  squirrels?: number | string;
+  fats?: number | string;
+  carbohydrates?: number | string;
+  weight?: number | string;
+  bestBeforeDate?: string;
 }
