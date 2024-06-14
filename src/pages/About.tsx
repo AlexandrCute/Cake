@@ -22,7 +22,7 @@ const About: FC = () => {
                         Мы всегда рады покупателям и ждем Ваших заказов!
                     </p>
                 </div>
-                <img src="/public/cook.jpeg" alt="Повар украшает десерты" className="w-full md:w-1/2" style={{ maxWidth: '100%', marginBottom: '20px' }} />
+                <img src="/cook.jpeg" alt="Повар украшает десерты" className="w-full md:w-1/2" style={{ maxWidth: '100%', marginBottom: '20px' }} />
             </section>
 
             <div className="flex flex-col md:flex-row w-full justify-center md:justify-between">

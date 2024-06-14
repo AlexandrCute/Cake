@@ -21,7 +21,6 @@ const AllProducts: FC = () => {
       fetch("../../products.json")
         .then((res) => res.json())
         .then(({ products }) => {
-          console.log(products)
           dispatch(addProducts(products));
         });
     };

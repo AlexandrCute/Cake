@@ -1,0 +1,592 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Торт \"Мультяшки\"",
+      "description": "Яркий и веселый торт с изображениями любимых мультяшек для вашего малыша.",
+      "price": 65,
+      "discountPercentage": 12.96,
+      "rating": 4.5,
+      "category": "Детские торты",
+      "thumbnail": "/assets/products/cartoons.jpeg",
+      "images": [
+        "/assets/products/cartoons.jpeg"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Торт \"Принцесса\"",
+      "description": "Изысканный торт в стиле принцесс с нежным вкусом и оформлением.",
+      "price": 78,
+      "discountPercentage": 7.96,
+      "rating": 4.8,
+      "category": "Детские торты",
+      "thumbnail": "/assets/products/princess.jpg",
+      "images": [
+        "/assets/products/princess.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Торт \"Пираты\"",
+      "description": "Пиратский торт с сокровищами и кораблями, чтобы сделать вечеринку вашего ребенка по-настоящему веселой.",
+      "price": 73,
+      "discountPercentage": 11.96,
+      "rating": 3.7,
+      "category": "Детские торты",
+      "thumbnail": "/assets/products/pirates.jpg",
+      "images": [
+        "/assets/products/pirates.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Торт \"Юный повар\"",
+      "description": "Торт для маленьких кулинаров с яркими конфетными украшениями.",
+      "price": 39,
+      "discountPercentage": 6.96,
+      "rating": 4.2,
+      "category": "Детские торты",
+      "thumbnail": "/assets/products/povarjpg.jpg",
+      "images": [
+        "/assets/products/povarjpg.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Торт \"Цирк\"",
+      "description": "Веселый и красочный торт с элементами цирка для яркой праздничной атмосферы.",
+      "price": 81,
+      "discountPercentage": 6.96,
+      "rating": 4,
+      "category": "Детские торты",
+      "thumbnail": "/assets/products/cirk.jpg",
+      "images": [
+        "/assets/products/cirk.jpg"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Торт \"Белоснежка\"",
+      "description": "Классический свадебный торт с белыми цветами и изящными узорами.",
+      "price": 108,
+      "discountPercentage": 19.96,
+      "rating": 5,
+      "category": "Свадебные торты",
+      "thumbnail": "/assets/products/belosnezhka.jpg",
+      "images": [
+        "/assets/products/belosnezhka.jpg"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Торт \"Романтика\"",
+      "description": "Нежный и романтичный торт с нежным вкусом и изысканным оформлением.",
+      "price": 121,
+      "discountPercentage": 24.96,
+      "rating": 4,
+      "category": "Свадебные торты",
+      "thumbnail": "/assets/products/romantika.jpg",
+      "images": [
+        "/assets/products/romantika.jpg"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Торт \"Золотая свадьба\"",
+      "description": "Пышный и роскошный торт с золотыми элементами для особенного торжества.",
+      "price": 130,
+      "discountPercentage": 24.96,
+      "rating": 3.5,
+      "category": "Свадебные торты",
+      "thumbnail": "/assets/products/svadba.jpg",
+      "images": [
+        "/assets/products/svadba.jpg"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Торт \"Лаванда\"",
+      "description": "Торт с нежными фиолетовыми оттенками и ароматом лаванды для особенной атмосферы свадьбы.",
+      "price": 117,
+      "discountPercentage": 24.96,
+      "rating": 4,
+      "category": "Свадебные торты",
+      "thumbnail": "/assets/products/lavanda.jpg",
+      "images": [
+        "/assets/products/lavanda.jpg"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Торт \"Любовь\"",
+      "description": "Торт, символизирующий вечную любовь и верность, с ягодным ароматом и нежным вкусом.",
+      "price": 129,
+      "discountPercentage": 24.96,
+      "rating": 5,
+      "category": "Свадебные торты",
+      "thumbnail": "/assets/products/love.jpg",
+      "images": [
+        "/assets/products/love.jpg"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Торт \"Шампанское\"",
+      "description": "Торт для празднования особого события с букетом из съедобных цветов.",
+      "price": 90,
+      "discountPercentage": 24.96,
+      "rating": 4.5,
+      "category": "Праздничные торты",
+      "thumbnail": "/assets/products/shampanskoe.jpg",
+      "images": [
+        "/assets/products/shampanskoe.jpg"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Торт \"Шоколадный фестиваль\"",
+      "description": "Торт с шоколадными украшениями и изысканным вкусом для сладкого праздника.",
+      "price": 99,
+      "discountPercentage": 24.96,
+      "rating": 5,
+      "category": "Праздничные торты",
+      "thumbnail":"/assets/products/chocolate.jpg",
+      "images": [
+        "/assets/products/chocolate.jpg"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Торт \"Морская тема\"",
+      "description": "Торт с морской тематикой и свежими морскими дарами для яркого и запоминающегося праздника.",
+      "price": 94,
+      "discountPercentage": 24.96,
+      "rating": 5,
+      "category": "Праздничные торты",
+      "thumbnail":   "/assets/products/morskaya_tema.jpg",
+      "images": [
+        "/assets/products/morskaya_tema.jpg"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Торт \"Феерический\"",
+      "description": "Торт с множеством ярких и красочных украшений для волшебного праздника.",
+      "price": 103,
+      "discountPercentage": 24.96,
+      "rating": 4,
+      "category": "Праздничные торты",
+      "thumbnail": "/assets/products/feericheskiy.jpg",
+      "images": [
+        "/assets/products/feericheskiy.jpg"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Торт \"Радуга\"",
+      "description": "Торт с изображением радуги и яркими карамельными украшениями для яркого и веселого праздника.",
+      "price": 111,
+      "discountPercentage": 24.96,
+      "rating": 3.5,
+      "category": "Праздничные торты",
+      "thumbnail": "/assets/products/raduga.jpg",
+      "images": [
+        "/assets/products/raduga.jpg"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Торт \"Фруктовый салат\"",
+      "description": "Легкий и освежающий торт с множеством свежих фруктов и ягод.",
+      "price": 78,
+      "discountPercentage": 24.96,
+      "rating": 5,
+      "category": "Диетические торты",
+      "thumbnail": "/assets/products/frukt_salat.jpg",
+      "images": [
+        "/assets/products/frukt_salat.jpg"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Торт \"Без сахара\"",
+      "description": "Торт для любителей сладостей без сахара, с использованием натуральных подсластителей.",
+      "price": 83,
+      "discountPercentage": 24.96,
+      "rating": 5,
+      "category": "Диетические торты",
+      "thumbnail": "/assets/products/bez_sahara.jpg",
+      "images": [
+        "/assets/products/bez_sahara.jpg"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Торт \"Овсяный десерт\"",
+      "description": "Торт на основе овсяных хлопьев с добавлением нежной крема и фруктов.",
+      "price": 75,
+      "discountPercentage": 24.96,
+      "rating": 3.5,
+      "category": "Диетические торты",
+      "thumbnail": "/assets/products/ovsyan desert.jpg",
+      "images": [
+        "/assets/products/ovsyan desert.jpg"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Торт \"Здоровое удовольствие\"",
+      "description": "Торт с использованием низкокалорийных ингредиентов для заботы о здоровье.",
+      "price": 86,
+      "discountPercentage": 24.96,
+      "rating": 4,
+      "category": "Диетические торты",
+      "thumbnail": "/assets/products/zdorovoe_udovol.jpg",
+      "images": [
+        "/assets/products/zdorovoe_udovol.jpg"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Торт \"Фитнес десерт\"",
+      "description": "Торт, приготовленный с учетом диетических принципов и сочетающий в себе вкус и пользу.",
+      "price": 93,
+      "discountPercentage": 24.96,
+      "rating": 5,
+      "category": "Диетические торты",
+      "thumbnail":  "/assets/products/fintes_desert.png",
+      "images": [
+        "/assets/products/fintes_desert.png"
+      ]
+    },
+    {
+        "id": 21,
+        "title": "Торт \"Логотип\"",
+        "description": "Торт с изображением логотипа вашей компании для корпоративного праздника.",
+        "price": 105,
+        "discountPercentage": 24.96,
+        "rating": 5,
+        "category": "Корпоративные торты",
+        "thumbnail": "/assets/products/logo.jpeg",
+        "images": [
+          "/assets/products/logo.jpeg"
+        ]
+    },
+    {
+        "id": 22,
+        "title": "Торт \"Бизнес-ланч\"",
+        "description": "Торт с изображением бизнес-ланча для корпоративного мероприятия.",
+        "price": 99,
+        "discountPercentage": 24.96,
+        "rating": 4,
+        "category": "Корпоративные торты",
+        "thumbnail": "/assets/products/business_lunch.jpg",
+        "images": [
+          "/assets/products/business_lunch.jpg"
+        ]
+    },
+    {
+        "id": 23,
+        "title": "Торт \"Компьютер\"",
+        "description": "Торт с изображением компьютера для празднования профессионального праздника.",
+        "price": 102,
+        "discountPercentage": 24.96,
+        "rating": 5,
+        "category": "Корпоративные торты",
+        "thumbnail":  "/assets/products/komputer.jpg",
+        "images": [
+          "/assets/products/komputer.jpg"
+        ]
+    },
+    {
+        "id": 24,
+        "title": "Торт \"Конференция\"",
+        "description": "Торт с изображением конференции для корпоративного мероприятия.",
+        "price": 108,
+        "discountPercentage": 24.96,
+        "rating": 4,
+        "category": "Корпоративные торты",
+      "thumbnail":  "/assets/products/konferncija.jpg",
+      "images": [
+        "/assets/products/konferncija.jpg"
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Торт \"Деловой ужин\"",
+      "description": "Торт с изображением делового ужина для корпоративного мероприятия.",
+      "price": 111,
+      "discountPercentage": 24.96,
+      "rating": 4,
+      "category": "Корпоративные торты",
+      "thumbnail":  "/assets/products/delovoy_uzhin.jpg",
+      "images": [
+        "/assets/products/delovoy_uzhin.jpg"
+      ]
+    },
+    {
+        "id": 26,
+        "title": "Торт \"Сердце\"",
+        "description": "Торт в форме сердца с нежным вкусом и романтичным оформлением.",
+        "price": 89,
+        "discountPercentage": 24.96,
+        "rating": 5,
+        "category": "Торты для влюбленных",
+        "thumbnail":  "/assets/products/serce.png",
+        "images": [
+          "/assets/products/serce.png"
+        ]
+    },
+    {
+        "id": 27,
+        "title": "Торт \"Розы\"",
+        "description": "Торт с изображением роз и нежным ароматом для романтического вечера.",
+        "price": 94,
+        "discountPercentage": 24.96,
+        "rating": 3.5,
+        "category": "Торты для влюбленных",
+        "thumbnail":  "/assets/products/roses.jpg",
+        "images": [
+          "/assets/products/roses.jpg"
+        ]
+    },
+    {
+        "id": 28,
+        "title": "Торт \"Любовное письмо\"",
+        "description": "Торт с изображением любовного письма и нежным вкусом для особенного случая.",
+        "price": 97,
+        "discountPercentage": 24.96,
+        "rating": 4.5,
+        "category": "Торты для влюбленных",
+        "thumbnail":  "/assets/products/pismo.jpg",
+        "images": [
+          "/assets/products/pismo.jpg"
+        ]
+    },
+    {
+        "id": 29,
+        "title": "Торт \"Сладкая парочка\"",
+        "description": "Торт с изображением влюбленной пары и нежным вкусом для романтического ужина.",
+        "price": 101,
+        "discountPercentage": 24.96,
+        "rating": 5,
+        "category": "Торты для влюбленных",
+        "thumbnail": "/assets/products/sladkaya_para.jpg",
+        "images": [
+          "/assets/products/sladkaya_para.jpg"
+        ]
+    },
+    {
+      "id": 30,
+        "title": "Торт \"Свадьба в розовом\"",
+        "description": "Торт с изображением свадьбы в розовом цвете для романтического вечера.",
+        "price": 105,
+        "discountPercentage": 24.96,
+        "rating": 4.5,
+        "category": "Торты для влюбленных",
+        "thumbnail":  "/assets/products/svadba.jpg",
+        "images": [
+          "/assets/products/svadba.jpg"
+        ]
+    },
+    {
+      "id": 31,
+      "title": "Торт \"Фотоальбом\"",
+      "description": "Торт с изображением фотографий для особого случая.",
+      "price": 95,
+      "discountPercentage": 24.96,
+      "rating": 4.5,
+      "category": "Торты с фотопечатью",
+      "thumbnail":  "/assets/products/fotoalbum.jpg",
+      "images": [
+        "/assets/products/fotoalbum.jpg"
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Торт \"Фотошоп\"",
+      "description": "Торт с изображением фотографий и яркими цветами для яркого праздника.",
+      "price": 99,
+      "discountPercentage": 24.96,
+      "rating": 3.5,
+      "category": "Торты с фотопечатью",
+      "thumbnail":  "/assets/products/photoshop.jpg",
+      "images": [
+        "/assets/products/photoshop.jpg"
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Торт \"Фото-коллаж\"",
+      "description": "Торт с изображением фотографий и красочными украшениями для особого случая.",
+      "price": 103,
+      "discountPercentage": 24.96,
+      "rating": 5,
+      "category": "Торты с фотопечатью",
+      "thumbnail":  "/assets/products/photokollazh.jpg",
+      "images": [
+        "/assets/products/photokollazh.jpg"
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Торт \"Фото-портрет\"",
+      "description": "Торт с изображением фотографий и нежным вкусом для особого случая.",
+      "price": 107,
+      "discountPercentage": 24.96,
+      "rating": 4,
+      "category": "Торты с фотопечатью",
+      "thumbnail":  "/assets/products/portret.jpg",
+      "images": [
+        "/assets/products/portret.jpg"
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Торт \"Фото-печать\"",
+      "description": "Торт с изображением фотографий и яркими цветами для яркого праздника.",
+      "price": 111,
+      "discountPercentage": 24.96,
+      "rating": 4.5,
+      "category": "Торты с фотопечатью",
+      "thumbnail":  "/assets/products/pechat.jpg",
+      "images": [
+        "/assets/products/pechat.jpg"
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Макаруны \"Классические\"",
+      "description": "Нежные макаруны с разнообразными вкусами и ароматами.",
+      "price": 25,
+      "discountPercentage": 24.96,
+      "rating": 5,
+      "category": "Макаруны",
+      "thumbnail":  "/assets/products/makaron-klassicheski.jpg",
+      "images": [
+        "/assets/products/makaron-klassicheski.jpg"
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Макаруны \"Фруктовые\"",
+      "description": "Макаруны с фруктовыми начинками и яркими цветами.",
+      "price": 28,
+      "discountPercentage": 24.96,
+      "rating": 4.5,
+      "category": "Макаруны",
+      "thumbnail":  "/assets/products/frukt.jpg",
+      "images": [
+        "/assets/products/frukt.jpg"
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Макаруны \"Ягодные\"",
+      "description": "Макаруны с ягодными начинками и нежным вкусом.",
+      "price": 31,
+      "discountPercentage": 24.96,
+      "rating": 3.5,
+      "category": "Макаруны",
+      "thumbnail":  "/assets/products/jagodnye.jpg",
+      "images": [
+        "/assets/products/jagodnye.jpg"
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Макаруны \"Шоколадные\"",
+      "description": "Макаруны с шоколадными начинками и изысканным вкусом.",
+      "price": 34,
+      "discountPercentage": 24.96,
+      "rating": 5,
+      "category": "Макаруны",
+      "thumbnail":  "/assets/products/mak_chok.jpg",
+      "images": [
+        "/assets/products/mak_chok.jpg"
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Макаруны \"Карамельные\"",
+      "description": "Макаруны с карамельными начинками и сладким ароматом.",
+      "price": 37,
+      "discountPercentage": 24.96,
+      "rating": 4,
+      "category": "Макаруны",
+      "thumbnail":  "/assets/products/karamel.jpg",
+      "images": [
+        "/assets/products/karamel.jpg"
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Коробка для торта",
+      "description": "Коробка для торта с удобной ручкой и красивым оформлением.",
+      "price": 10,
+      "discountPercentage": 24.96,
+      "rating": 3,
+      "category": "Аксессуары",
+      "thumbnail":  "/assets/products/korobka.jpg",
+      "images": [
+        "/assets/products/korobka.jpg"
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Фигурки для торта",
+      "description": "Фигурки для торта с изображением любимых героев и персонажей.",
+      "price": 15,
+      "discountPercentage": 24.96,
+      "rating": 3.5,
+      "category": "Аксессуары",
+      "thumbnail":  "/assets/products/figurki.jpg",
+      "images": [
+        "/assets/products/figurki.jpg"
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Свечи для торта",
+      "description": "Свечи для торта с яркими цветами и красивым оформлением.",
+      "price": 5,
+      "discountPercentage": 24.96,
+      "rating": 4.5,
+      "category": "Аксессуары",
+      "thumbnail":  "/assets/products/svechi.jpg",
+      "images": [
+        "/assets/products/svechi.jpg"
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Топперы для торта",
+      "description": "Топперы для торта с изображением любимых героев и персонажей.",
+      "price": 8,
+      "discountPercentage": 24.96,
+      "rating": 4.5,
+      "category": "Аксессуары",
+      "thumbnail":  "/assets/products/topper.jpg",
+      "images": [
+        "/assets/products/topper.jpg"
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Конфеты для торта",
+      "description": "Конфеты для торта с разнообразными вкусами и ароматами.",
+      "price": 7,
+      "discountPercentage": 24.96,
+      "rating": 5,
+      "category": "Аксессуары",
+      "thumbnail":  "/assets/products/konfety.jpg",
+      "images": [
+        "/assets/products/konfety.jpgк"
+      ]
+    }
+  ],
+  "total": 45,
+  "skip": 0,
+  "limit": 45
+}

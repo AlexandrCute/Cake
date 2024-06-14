@@ -31,7 +31,7 @@ const Profile: FC = () => {
       <h1 className="text-4xl p-4 font-bold font-lora">Ваш аккаунт</h1>
       <div className="font-karla grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-1 p-4">
         <img
-          src="../../public/terry.png"
+          src="/terry.png"
           alt="avatar"
           className="text-center"
         />

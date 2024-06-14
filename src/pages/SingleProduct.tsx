@@ -125,7 +125,7 @@ const SingleProduct: FC = () => {
     <div className="container mx-auto pt-8">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 px-4 font-karla">
         <div className="space-y-2">
-          <img src={`.${selectedImg}`} alt="selected" className="h-80" />
+          <img src={`${selectedImg}`} alt="selected" className="h-80" />
         </div>
         <div className="px-2">
           <h2 className="text-2xl">{product?.title}</h2>

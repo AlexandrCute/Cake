@@ -13,14 +13,14 @@ const Contacts: FC = () => {
                                 <div style={{ marginRight: '10px' }}>
                                     <a href="#">
                                         <span>
-                                            <img src="/public/fgs16_telegram_rounded.svg" alt="telegram" />
+                                            <img src="/fgs16_telegram_rounded.svg" alt="telegram" />
                                         </span>
                                     </a>
                                 </div>
                                 <div>
                                     <a href="#">
                                         <span>
-                                            <img src="/public/fgs16_whatsapp_rounded.svg" alt="whatsapp" />
+                                            <img src="/fgs16_whatsapp_rounded.svg" alt="whatsapp" />
                                         </span>
                                     </a>
                                 </div>
@@ -41,12 +41,12 @@ const Contacts: FC = () => {
                         <div style={{ display: 'flex' }}>
                             <a href="#" style={{ marginRight: '10px' }}>
                                 <span>
-                                    <img src="/public/fgs16_vk-cl-bg.svg" alt="vk" />
+                                    <img src="/fgs16_vk-cl-bg.svg" alt="vk" />
                                 </span>
                             </a>
                             <a href="#">
                                 <span>
-                                    <img src="/public/instagram_contacts.svg" alt="instagram" />
+                                    <img src="/instagram_contacts.svg" alt="instagram" />
                                 </span>
                             </a>
                         </div>
