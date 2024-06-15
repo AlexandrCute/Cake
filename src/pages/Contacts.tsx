@@ -15,10 +15,10 @@ const Contacts: FC = () => {
                             </div>
                             <div className="flex ml-4">
                                 <a href="#" className="mr-2">
-                                    <img src="/public/fgs16_telegram_rounded.svg" alt="telegram" />
+                                    <img src="/fgs16_telegram_rounded.svg" alt="telegram" />
                                 </a>
                                 <a href="#">
-                                    <img src="/public/fgs16_whatsapp_rounded.svg" alt="whatsapp" />
+                                    <img src="/fgs16_whatsapp_rounded.svg" alt="whatsapp" />
                                 </a>
                             </div>
                         </div>
@@ -36,10 +36,10 @@ const Contacts: FC = () => {
                         </div>
                         <div className="flex mb-4">
                             <a href="#" className="mr-2">
-                                <img src="/public/fgs16_vk-cl-bg.svg" alt="vk" />
+                                <img src="/fgs16_vk-cl-bg.svg" alt="vk" />
                             </a>
                             <a href="#">
-                                <img src="/public/instagram_contacts.svg" alt="instagram" />
+                                <img src="/instagram_contacts.svg" alt="instagram" />
                             </a>
                         </div>
                     </div>

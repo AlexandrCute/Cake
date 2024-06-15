@@ -10,7 +10,7 @@ const Delivery: FC = () => {
                 <div className="mb-20">
                     <div className="flex flex-wrap items-center">
                         <div className="mr-8 mb-6 sm:mb-0">
-                            <img src="/public/delivery.svg" alt="" style={{ maxWidth: '100%', height: 'auto' }} />
+                            <img src="/delivery.svg" alt="" style={{ maxWidth: '100%', height: 'auto' }} />
                         </div>
                         <div className="">
                             <div className="font-lato">
@@ -51,7 +51,7 @@ const Delivery: FC = () => {
                     <div className="flex flex-wrap items-center">
                         <div>
                             <div className="mr-8 mb-6 sm:mb-0">
-                                <img src="/public/self-call.svg" alt="" style={{ maxWidth: '100%', height: 'auto' }} />
+                                <img src="/self-call.svg" alt="" style={{ maxWidth: '100%', height: 'auto' }} />
                             </div>
                         </div>
                         <div className="mb-6 font-lato">

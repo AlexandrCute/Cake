@@ -10,7 +10,7 @@ const Promotions: FC = () => {
                 {/* Первая акция */}
                 <div className="flex flex-col items-center mr-4 promo-container">
                     <div style={{ aspectRatio: '4/3' }}>
-                        <img src="/public/promotions_1.jpeg" alt="Торт 1" className="promotion-image object-cover w-full h-full" />
+                        <img src="/promotions_1.jpeg" alt="Торт 1" className="promotion-image object-cover w-full h-full" />
                     </div>
                     <div className="text-container pt-6 mb-10">
                         <div className="text-2xl font-bold font-lora">3 любых торта – бесплатная доставка!</div>
@@ -22,7 +22,7 @@ const Promotions: FC = () => {
                 {/* Вторая акция */}
                 <div className="flex flex-col items-center mr-4">
                     <div style={{ aspectRatio: '4/3' }}>
-                        <img src="/public/promotions_2.jpeg" alt="Торт 2" className="promotion-image object-cover w-full h-full" />
+                        <img src="/promotions_2.jpeg" alt="Торт 2" className="promotion-image object-cover w-full h-full" />
                     </div>
                     <div className="text-container pt-5 mb-10">
                         <div className="text-2xl font-bold font-lora my-2">Предновогодняя скидка 15%!</div>

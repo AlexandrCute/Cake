@@ -7,7 +7,7 @@ const Footer: FC = () => (
       <div className="flex flex-col space-y-2 order-1 md:order-1">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div>
-            <img src="/public/phone.svg" alt="телефон" />
+            <img src="/phone.svg" alt="телефон" />
           </div>
           <div style={{ marginLeft: "20px" }}>
             <div>г. Гомель</div>
@@ -18,7 +18,7 @@ const Footer: FC = () => (
         </div>
         <div style={{ display: "flex", alignItems: "center" }}>
           <div>
-            <img src="/public/label.svg" alt="адрес" />
+            <img src="/label.svg" alt="адрес" />
           </div>
           <div style={{ marginLeft: "20px" }}>
             <div>г. Гомель, ул. Крестьянская, дом 22</div>
@@ -30,28 +30,28 @@ const Footer: FC = () => (
         <div className="flex justify-center">
           <a href="#">
             <img
-              src="/public/instagram.svg"
+              src="/instagram.svg"
               style={{ width: "30px", height: "30px", margin: "0 10px" }}
               alt="instagram"
             />
           </a>
           <a href="#">
             <img
-              src="/public/vk.svg"
+              src="/vk.svg"
               style={{ width: "30px", height: "30px", margin: "0 10px" }}
               alt="vk"
             />
           </a>
           <a href="#">
             <img
-              src="/public/twitter.svg"
+              src="/twitter.svg"
               style={{ width: "30px", height: "30px", margin: "0 10px" }}
               alt="twitter"
             />
           </a>
           <a href="#">
             <img
-              src="/public/facebook.svg"
+              src="/facebook.svg"
               style={{ width: "30px", height: "30px", margin: "0 10px" }}
               alt="facebook"
             />
@@ -63,35 +63,35 @@ const Footer: FC = () => (
         <div className="flex mt-3 space-x-3 justify-center">
           <a href="#">
             <img
-              src="/public/m-card_1.svg"
+              src="/m-card_1.svg"
               style={{ width: "35px", height: "35px", margin: "0 5px" }}
               alt="mastercard"
             />
           </a>
           <a href="#">
             <img
-              src="/public/mir_1.svg"
+              src="/mir_1.svg"
               style={{ width: "48px", height: "48px", margin: "0 5px" }}
               alt="мир"
             />
           </a>
           <a href="#">
             <img
-              src="/public/paypal_1.svg"
+              src="/paypal_1.svg"
               style={{ width: "48px", height: "48px", margin: "0 5px" }}
               alt="PayPal"
             />
           </a>
           <a href="#">
             <img
-              src="/public/visa.svg"
+              src="/visa.svg"
               style={{ width: "48px", height: "48px", margin: "0 5px" }}
               alt="visa"
             />
           </a>
           <a href="#">
             <img
-              src="/public/yandex_1.svg"
+              src="/yandex_1.svg"
               style={{ width: "30px", height: "30px", margin: "0 5px" }}
               alt="yandex money"
             />

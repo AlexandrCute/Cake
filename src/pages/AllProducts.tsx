@@ -18,7 +18,7 @@ const AllProducts: FC = () => {
 
   useEffect(() => {
     const fetchProducts = () => {
-      fetch("../../products.json")
+      fetch("/products.json")
         .then((res) => res.json())
         .then(({ products }) => {
           console.log(products)
@@ -26,7 +26,7 @@ const AllProducts: FC = () => {
         });
     };
     const fetchCategories = () => {
-      fetch("../../categories.json")
+      fetch("/categories.json")
         .then((res) => res.json())
         .then((data) => {
           dispatch(addCategories(data));

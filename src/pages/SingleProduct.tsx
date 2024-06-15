@@ -144,7 +144,7 @@ const SingleProduct = () => {
       <div className="grid grid-cols-1 1fr md:grid-cols-2 3fr gap-8 pb-8 font-karla">
         <div className="space-y-2 flex flex-col items-center">
           <img
-            src={`.${selectedImg}`}
+            src={selectedImg}
             alt="selected"
             className="max-w-full object-contain"
             style={{ height: "24rem" }}
@@ -198,7 +198,7 @@ const SingleProduct = () => {
           <div className="container flex flex-col md:flex-row md:justify-between md:items-center md:gap-4 mt-4">
             <div className="feature flex items-center gap-3 text-lg md:w-1/3 lg:w-auto">
               <img
-                src="../public/control_quality.svg"
+                src="/control_quality.svg"
                 alt="Контроль качества"
                 className="icon"
               />
@@ -206,7 +206,7 @@ const SingleProduct = () => {
             </div>
             <div className="feature flex items-center gap-3 text-lg mt-4 md:mt-0 md:w-1/3 lg:w-auto">
               <img
-                src="../public/handmade.svg"
+                src="/handmade.svg"
                 alt="Ручная работа"
                 className="icon"
               />
@@ -214,7 +214,7 @@ const SingleProduct = () => {
             </div>
             <div className="feature flex items-center gap-3 text-lg mt-4 md:mt-0 md:w-1/3 lg:w-auto">
               <img
-                src="../public/natutal_products.svg"
+                src="/natutal_products.svg"
                 alt="Натуральные продукты"
                 className="icon"
               />

@@ -10,7 +10,7 @@ export interface Product {
   brand?: string;
   stock?: number;
   discountPercentage?: number;
-  compound: string;
+  compound?: string;
   calories?: number | string;
   squirrels?: number | string;
   fats?: number | string;

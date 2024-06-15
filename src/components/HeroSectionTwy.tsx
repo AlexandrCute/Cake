@@ -23,7 +23,7 @@ const NewCollectionBanner: FC = () => {
                     </div>
                 </div>
                 <div>
-                    <img src="../../public/lime_cakes.png" alt="cakes" className="ml-auto" />
+                    <img src="/lime_cakes.png" alt="cakes" className="ml-auto" />
                 </div>
             </div>
         </div>

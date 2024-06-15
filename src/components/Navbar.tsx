@@ -25,7 +25,7 @@ const Navbar: FC = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
           <Link to="/" className="text-4xl font-bold" data-test="main-logo">
-            <img src="/public/logo_2.svg" alt="" />
+            <img src="/logo_2.svg" alt="" />
           </Link>
           <div className="lg:flex justify-between hidden w-full max-w-[700px]">
             <Link
