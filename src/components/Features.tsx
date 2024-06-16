@@ -1,4 +1,4 @@
-import { TbTruckDelivery, TbDiscount2 } from "react-icons/tb";
+import { TbTruckDelivery, TbDiscount } from "react-icons/tb";
 import { RiRefund2Fill } from "react-icons/ri";
 import { MdSupportAgent } from "react-icons/md";
 import { FC } from "react";
@@ -16,7 +16,7 @@ const data = [
     desc: "Возврат денег гарантирован",
   },
   {
-    icon: <TbDiscount2 className="text-4xl" />,
+    icon: <TbDiscount className="text-4xl" />,
     title: "Постоянные клиенты",
     desc: "Скидки и бонусы для постоянных клиентов",
   },

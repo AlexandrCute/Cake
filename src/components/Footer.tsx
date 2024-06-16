@@ -28,28 +28,28 @@ const Footer: FC = () => (
       <div className="flex flex-col space-y-2 order-2 md:order-2 md:text-center">
         <div className="text-center mt-2">Мы в социальных сетях:</div>
         <div className="flex justify-center">
-          <a href="#">
+          <a href="https://www.instagram.com/nyc.cake/">
             <img
               src="/instagram.svg"
               style={{ width: "30px", height: "30px", margin: "0 10px" }}
               alt="instagram"
             />
           </a>
-          <a href="#">
+          <a href="https://vk.com/id174816883">
             <img
               src="/vk.svg"
               style={{ width: "30px", height: "30px", margin: "0 10px" }}
               alt="vk"
             />
           </a>
-          <a href="#">
+          <a href="https://x.com/Wanderi13765185">
             <img
-              src="/twitter.svg"
+              src="/x-twitter.svg"
               style={{ width: "30px", height: "30px", margin: "0 10px" }}
               alt="twitter"
             />
           </a>
-          <a href="#">
+          <a href="https://www.facebook.com/profile.php?id=100094357052966&_rdc=1&_rdr">
             <img
               src="/facebook.svg"
               style={{ width: "30px", height: "30px", margin: "0 10px" }}

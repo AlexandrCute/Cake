@@ -14,10 +14,10 @@ const Contacts: FC = () => {
                                 <a href="tel:+375 44 453-21-43">+375 44 453-21-43</a>
                             </div>
                             <div className="flex ml-4">
-                                <a href="#" className="mr-2">
+                                <a href="https://t.me/Lyamuuur" className="mr-2">
                                     <img src="/fgs16_telegram_rounded.svg" alt="telegram" />
                                 </a>
-                                <a href="#">
+                                <a href="https://wa.me/1234567890?text=Привет%20из%20браузера">
                                     <img src="/fgs16_whatsapp_rounded.svg" alt="whatsapp" />
                                 </a>
                             </div>
@@ -32,13 +32,13 @@ const Contacts: FC = () => {
                             г. Гомель, ул. Крестьянская, дом 22
                         </div>
                         <div className="mb-4" style={{ color: "#4285f4" }}>
-                            <a href="alexandr.kinder.99@bk.ru">sweetcake.homel@mail.ru</a>
+                            <a href="mailto:sweetcake.homel@mail.ru">sweetcake.homel@mail.ru</a>
                         </div>
                         <div className="flex mb-4">
-                            <a href="#" className="mr-2">
+                            <a href="https://vk.com/id174816883" className="mr-2">
                                 <img src="/fgs16_vk-cl-bg.svg" alt="vk" />
                             </a>
-                            <a href="#">
+                            <a href="https://www.instagram.com/nyc.cake/">
                                 <img src="/instagram_contacts.svg" alt="instagram" />
                             </a>
                         </div>

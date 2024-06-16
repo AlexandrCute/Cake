@@ -144,7 +144,7 @@ const SingleProduct = () => {
       <div className="grid grid-cols-1 1fr md:grid-cols-2 3fr gap-8 pb-8 font-karla">
         <div className="space-y-2 flex flex-col items-center">
           <img
-            src={selectedImg}
+            src={`.${selectedImg}`}           //`.${selectedImg}`
             alt="selected"
             className="max-w-full object-contain"
             style={{ height: "24rem" }}

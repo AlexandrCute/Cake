@@ -26,7 +26,7 @@ const Cart: FC = () => {
     dispatch(setCartState(false));
     dispatch(emptyCart());
     setCheckout(false);
-    toast.success("Ваш заказ успешно оформлен", { duration: 3000 });
+    toast.success("Ваша заявка успешно оформлена", { duration: 3000 });
   };
 
   if (isOpen) {
@@ -34,19 +34,17 @@ const Cart: FC = () => {
       <div className="bg-[#0000007d] w-full min-h-screen fixed left-0 top-0 z-20 overflow-y-auto">
         {checkout ? (
           <div className="max-w-[400px] w-full min-h-full bg-white absolute right-0 top-0 p-6 font-karla">
-            <h1 className="font-bold text-xl mb-1">Checkout</h1>
-            <p className="leading-4 mb-3">
-              Добро пожаловать в раздел оформления заказа. Это проект в разработке, и я не реализовал никаких задач, связанных с оплатой. Если вы нажмете кнопку отмены, вы вернетесь к сегменту корзины. Нажатие кнопки подтверждения будет означать подтверждение вашего заказа, оплату выполненной и успешную доставку заказа. Еще одно важное замечание: история заказов не разработана из-за отсутствия подходящего бэкэнд API.
-            </p>
+            <h1 className="font-bold mb-10">Вы уверены, что хотите оформить заявку? Если Да, то нажмите кнопку <span className="">Подтвердить</span>. <br /> С вами свяжутся по телефону в ближайшее время и уточнят подробности</h1>
+
             <div className="flex items-center space-x-2">
               <span
-                className="w-1/2 border border-gray-500 rounded cursor-pointer text-center py-1"
+                className="w-1/2 border border-gray-500 rounded cursor-pointer text-center py-1 text-white bg-blue-500 hover:bg-blue-700"
                 onClick={() => setCheckout(false)}
               >
                 Отмена
               </span>
               <span
-                className="w-1/2 border border-gray-500 rounded cursor-pointer text-center py-1"
+                className="w-1/2 border border-gray-500 rounded cursor-pointer text-center py-1 text-white bg-blue-500 hover:bg-blue-700"
                 onClick={handleOrder}
                 data-test="confirm-order-btn"
               >
@@ -89,7 +87,7 @@ const Cart: FC = () => {
                   onClick={() => setCheckout(true)}
                   className="w-full text-center text-white bg-blue-500 py-2 my-4 rounded font-bold text-xl hover:bg-blue-700"
                 >
-                  Заказать
+                  Оформить заявку
                 </button>
               </>
             )}
