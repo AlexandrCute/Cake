@@ -8,9 +8,9 @@
       "discountPercentage": 12.96,
       "rating": 4.5,
       "category": "Детские торты",
-      "thumbnail": "./src/assets/products/cartoons.jpeg",
+      "thumbnail": "/products/cartoons.jpeg",
       "images": [
-        "./src/assets/products/cartoons.jpeg"
+        "/products/cartoons.jpeg"
       ]
     },
     {
@@ -21,9 +21,9 @@
       "discountPercentage": 7.96,
       "rating": 4.8,
       "category": "Детские торты",
-      "thumbnail": "./src/assets/products/princess.jpg",
+      "thumbnail": "/products/princess.jpg",
       "images": [
-        "./src/assets/products/princess.jpg"
+        "/products/princess.jpg"
       ]
     },
     {
@@ -34,9 +34,9 @@
       "discountPercentage": 11.96,
       "rating": 3.7,
       "category": "Детские торты",
-      "thumbnail": "./src/assets/products/pirates.jpg",
+      "thumbnail": "/products/pirates.jpg",
       "images": [
-        "./src/assets/products/pirates.jpg"
+        "/products/pirates.jpg"
       ]
     },
     {
@@ -47,9 +47,9 @@
       "discountPercentage": 6.96,
       "rating": 4.2,
       "category": "Детские торты",
-      "thumbnail": "./src/assets/products/povarjpg.jpg",
+      "thumbnail": "/products/povarjpg.jpg",
       "images": [
-        "./src/assets/products/povarjpg.jpg"
+        "/products/povarjpg.jpg"
       ]
     },
     {
@@ -60,9 +60,9 @@
       "discountPercentage": 6.96,
       "rating": 4,
       "category": "Детские торты",
-      "thumbnail": "./src/assets/products/cirk.jpg",
+      "thumbnail": "/products/cirk.jpg",
       "images": [
-        "./src/assets/products/cirk.jpg"
+        "/products/cirk.jpg"
       ]
     },
     {
@@ -73,9 +73,9 @@
       "discountPercentage": 19.96,
       "rating": 5,
       "category": "Свадебные торты",
-      "thumbnail": "./src/assets/products/belosnezhka.jpg",
+      "thumbnail": "/products/belosnezhka.jpg",
       "images": [
-        "./src/assets/products/belosnezhka.jpg"
+        "/products/belosnezhka.jpg"
       ]
     },
     {
@@ -86,9 +86,9 @@
       "discountPercentage": 24.96,
       "rating": 4,
       "category": "Свадебные торты",
-      "thumbnail": "./src/assets/products/romantika.jpg",
+      "thumbnail": "/products/romantika.jpg",
       "images": [
-        "./src/assets/products/romantika.jpg"
+        "/products/romantika.jpg"
       ]
     },
     {
@@ -99,9 +99,9 @@
       "discountPercentage": 24.96,
       "rating": 3.5,
       "category": "Свадебные торты",
-      "thumbnail": "./src/assets/products/svadba.jpg",
+      "thumbnail": "/products/svadba.jpg",
       "images": [
-        "./src/assets/products/svadba.jpg"
+        "/products/svadba.jpg"
       ]
     },
     {
@@ -112,9 +112,9 @@
       "discountPercentage": 24.96,
       "rating": 4,
       "category": "Свадебные торты",
-      "thumbnail": "./src/assets/products/lavanda.jpg",
+      "thumbnail": "/products/lavanda.jpg",
       "images": [
-        "./src/assets/products/lavanda.jpg"
+        "/products/lavanda.jpg"
       ]
     },
     {
@@ -125,9 +125,9 @@
       "discountPercentage": 24.96,
       "rating": 5,
       "category": "Свадебные торты",
-      "thumbnail": "./src/assets/products/love.jpg",
+      "thumbnail": "/products/love.jpg",
       "images": [
-        "./src/assets/products/love.jpg"
+        "/products/love.jpg"
       ]
     },
     {
@@ -138,9 +138,9 @@
       "discountPercentage": 24.96,
       "rating": 4.5,
       "category": "Праздничные торты",
-      "thumbnail": "./src/assets/products/shampanskoe.jpg",
+      "thumbnail": "/products/shampanskoe.jpg",
       "images": [
-        "./src/assets/products/shampanskoe.jpg"
+        "/products/shampanskoe.jpg"
       ]
     },
     {
@@ -151,9 +151,9 @@
       "discountPercentage": 24.96,
       "rating": 5,
       "category": "Праздничные торты",
-      "thumbnail":"./src/assets/products/chocolate.jpg",
+      "thumbnail":"/products/chocolate.jpg",
       "images": [
-        "./src/assets/products/chocolate.jpg"
+        "/products/chocolate.jpg"
       ]
     },
     {
@@ -164,9 +164,9 @@
       "discountPercentage": 24.96,
       "rating": 5,
       "category": "Праздничные торты",
-      "thumbnail":   "./src/assets/products/morskaya_tema.jpg",
+      "thumbnail":   "/products/morskaya_tema.jpg",
       "images": [
-        "./src/assets/products/morskaya_tema.jpg"
+        "/products/morskaya_tema.jpg"
       ]
     },
     {
@@ -177,9 +177,9 @@
       "discountPercentage": 24.96,
       "rating": 4,
       "category": "Праздничные торты",
-      "thumbnail": "./src/assets/products/feericheskiy.jpg",
+      "thumbnail": "/products/feericheskiy.jpg",
       "images": [
-        "./src/assets/products/feericheskiy.jpg"
+        "/products/feericheskiy.jpg"
       ]
     },
     {
@@ -190,9 +190,9 @@
       "discountPercentage": 24.96,
       "rating": 3.5,
       "category": "Праздничные торты",
-      "thumbnail": "./src/assets/products/raduga.jpg",
+      "thumbnail": "/products/raduga.jpg",
       "images": [
-        "./src/assets/products/raduga.jpg"
+        "/products/raduga.jpg"
       ]
     },
     {
@@ -203,9 +203,9 @@
       "discountPercentage": 24.96,
       "rating": 5,
       "category": "Диетические торты",
-      "thumbnail": "./src/assets/products/frukt_salat.jpg",
+      "thumbnail": "/products/frukt_salat.jpg",
       "images": [
-        "./src/assets/products/frukt_salat.jpg"
+        "/products/frukt_salat.jpg"
       ]
     },
     {
@@ -216,9 +216,9 @@
       "discountPercentage": 24.96,
       "rating": 5,
       "category": "Диетические торты",
-      "thumbnail": "./src/assets/products/bez_sahara.jpg",
+      "thumbnail": "/products/bez_sahara.jpg",
       "images": [
-        "./src/assets/products/bez_sahara.jpg"
+        "/products/bez_sahara.jpg"
       ]
     },
     {
@@ -229,9 +229,9 @@
       "discountPercentage": 24.96,
       "rating": 3.5,
       "category": "Диетические торты",
-      "thumbnail": "./src/assets/products/ovsyan desert.jpg",
+      "thumbnail": "/products/ovsyan desert.jpg",
       "images": [
-        "./src/assets/products/ovsyan desert.jpg"
+        "/products/ovsyan desert.jpg"
       ]
     },
     {
@@ -242,9 +242,9 @@
       "discountPercentage": 24.96,
       "rating": 4,
       "category": "Диетические торты",
-      "thumbnail": "./src/assets/products/zdorovoe_udovol.jpg",
+      "thumbnail": "/products/zdorovoe_udovol.jpg",
       "images": [
-        "./src/assets/products/zdorovoe_udovol.jpg"
+        "/products/zdorovoe_udovol.jpg"
       ]
     },
     {
@@ -255,9 +255,9 @@
       "discountPercentage": 24.96,
       "rating": 5,
       "category": "Диетические торты",
-      "thumbnail":  "./src/assets/products/fintes_desert.png",
+      "thumbnail":  "/products/fintes_desert.png",
       "images": [
-        "./src/assets/products/fintes_desert.png"
+        "/products/fintes_desert.png"
       ]
     },
     {
@@ -268,9 +268,9 @@
         "discountPercentage": 24.96,
         "rating": 5,
         "category": "Корпоративные торты",
-        "thumbnail": "./src/assets/products/logo.jpeg",
+        "thumbnail": "/products/logo.jpeg",
         "images": [
-          "./src/assets/products/logo.jpeg"
+          "/products/logo.jpeg"
         ]
     },
     {
@@ -281,9 +281,9 @@
         "discountPercentage": 24.96,
         "rating": 4,
         "category": "Корпоративные торты",
-        "thumbnail": "./src/assets/products/business_lunch.jpg",
+        "thumbnail": "/products/business_lunch.jpg",
         "images": [
-          "./src/assets/products/business_lunch.jpg"
+          "/products/business_lunch.jpg"
         ]
     },
     {
@@ -294,9 +294,9 @@
         "discountPercentage": 24.96,
         "rating": 5,
         "category": "Корпоративные торты",
-        "thumbnail":  "./src/assets/products/komputer.jpg",
+        "thumbnail":  "/products/komputer.jpg",
         "images": [
-          "./src/assets/products/komputer.jpg"
+          "/products/komputer.jpg"
         ]
     },
     {
@@ -307,9 +307,9 @@
         "discountPercentage": 24.96,
         "rating": 4,
         "category": "Корпоративные торты",
-      "thumbnail":  "./src/assets/products/konferncija.jpg",
+      "thumbnail":  "/products/konferncija.jpg",
       "images": [
-        "./src/assets/products/konferncija.jpg"
+        "/products/konferncija.jpg"
       ]
     },
     {
@@ -320,9 +320,9 @@
       "discountPercentage": 24.96,
       "rating": 4,
       "category": "Корпоративные торты",
-      "thumbnail":  "./src/assets/products/delovoy_uzhin.jpg",
+      "thumbnail":  "/products/delovoy_uzhin.jpg",
       "images": [
-        "./src/assets/products/delovoy_uzhin.jpg"
+        "/products/delovoy_uzhin.jpg"
       ]
     },
     {
@@ -333,9 +333,9 @@
         "discountPercentage": 24.96,
         "rating": 5,
         "category": "Торты для влюбленных",
-        "thumbnail":  "./src/assets/products/serce.png",
+        "thumbnail":  "/products/serce.png",
         "images": [
-          "./src/assets/products/serce.png"
+          "/products/serce.png"
         ]
     },
     {
@@ -346,9 +346,9 @@
         "discountPercentage": 24.96,
         "rating": 3.5,
         "category": "Торты для влюбленных",
-        "thumbnail":  "./src/assets/products/roses.jpg",
+        "thumbnail":  "/products/roses.jpg",
         "images": [
-          "./src/assets/products/roses.jpg"
+          "/products/roses.jpg"
         ]
     },
     {
@@ -359,9 +359,9 @@
         "discountPercentage": 24.96,
         "rating": 4.5,
         "category": "Торты для влюбленных",
-        "thumbnail":  "./src/assets/products/pismo.jpg",
+        "thumbnail":  "/products/pismo.jpg",
         "images": [
-          "./src/assets/products/pismo.jpg"
+          "/products/pismo.jpg"
         ]
     },
     {
@@ -372,9 +372,9 @@
         "discountPercentage": 24.96,
         "rating": 5,
         "category": "Торты для влюбленных",
-        "thumbnail": "./src/assets/products/sladkaya_para.jpg",
+        "thumbnail": "/products/sladkaya_para.jpg",
         "images": [
-          "./src/assets/products/sladkaya_para.jpg"
+          "/products/sladkaya_para.jpg"
         ]
     },
     {
@@ -385,9 +385,9 @@
         "discountPercentage": 24.96,
         "rating": 4.5,
         "category": "Торты для влюбленных",
-        "thumbnail":  "./src/assets/products/svadba.jpg",
+        "thumbnail":  "/products/svadba.jpg",
         "images": [
-          "./src/assets/products/svadba.jpg"
+          "/products/svadba.jpg"
         ]
     },
     {
@@ -398,9 +398,9 @@
       "discountPercentage": 24.96,
       "rating": 4.5,
       "category": "Торты с фотопечатью",
-      "thumbnail":  "./src/assets/products/fotoalbum.jpg",
+      "thumbnail":  "/products/fotoalbum.jpg",
       "images": [
-        "./src/assets/products/fotoalbum.jpg"
+        "/products/fotoalbum.jpg"
       ]
     },
     {
@@ -411,9 +411,9 @@
       "discountPercentage": 24.96,
       "rating": 3.5,
       "category": "Торты с фотопечатью",
-      "thumbnail":  "./src/assets/products/photoshop.jpg",
+      "thumbnail":  "/products/photoshop.jpg",
       "images": [
-        "./src/assets/products/photoshop.jpg"
+        "/products/photoshop.jpg"
       ]
     },
     {
@@ -424,9 +424,9 @@
       "discountPercentage": 24.96,
       "rating": 5,
       "category": "Торты с фотопечатью",
-      "thumbnail":  "./src/assets/products/photokollazh.jpg",
+      "thumbnail":  "/products/photokollazh.jpg",
       "images": [
-        "./src/assets/products/photokollazh.jpg"
+        "/products/photokollazh.jpg"
       ]
     },
     {
@@ -437,9 +437,9 @@
       "discountPercentage": 24.96,
       "rating": 4,
       "category": "Торты с фотопечатью",
-      "thumbnail":  "./src/assets/products/portret.jpg",
+      "thumbnail":  "/products/portret.jpg",
       "images": [
-        "./src/assets/products/portret.jpg"
+        "/products/portret.jpg"
       ]
     },
     {
@@ -450,9 +450,9 @@
       "discountPercentage": 24.96,
       "rating": 4.5,
       "category": "Торты с фотопечатью",
-      "thumbnail":  "./src/assets/products/pechat.jpg",
+      "thumbnail":  "/products/pechat.jpg",
       "images": [
-        "./src/assets/products/pechat.jpg"
+        "/products/pechat.jpg"
       ]
     },
     {
@@ -463,9 +463,9 @@
       "discountPercentage": 24.96,
       "rating": 5,
       "category": "Макаруны",
-      "thumbnail":  "./src/assets/products/makaron-klassicheski.jpg",
+      "thumbnail":  "/products/makaron-klassicheski.jpg",
       "images": [
-        "./src/assets/products/makaron-klassicheski.jpg"
+        "/products/makaron-klassicheski.jpg"
       ]
     },
     {
@@ -476,9 +476,9 @@
       "discountPercentage": 24.96,
       "rating": 4.5,
       "category": "Макаруны",
-      "thumbnail":  "./src/assets/products/frukt.jpg",
+      "thumbnail":  "/products/frukt.jpg",
       "images": [
-        "./src/assets/products/frukt.jpg"
+        "/products/frukt.jpg"
       ]
     },
     {
@@ -489,9 +489,9 @@
       "discountPercentage": 24.96,
       "rating": 3.5,
       "category": "Макаруны",
-      "thumbnail":  "./src/assets/products/jagodnye.jpg",
+      "thumbnail":  "/products/jagodnye.jpg",
       "images": [
-        "./src/assets/products/jagodnye.jpg"
+        "/products/jagodnye.jpg"
       ]
     },
     {
@@ -502,9 +502,9 @@
       "discountPercentage": 24.96,
       "rating": 5,
       "category": "Макаруны",
-      "thumbnail":  "./src/assets/products/mak_chok.jpg",
+      "thumbnail":  "/products/mak_chok.jpg",
       "images": [
-        "./src/assets/products/mak_chok.jpg"
+        "/products/mak_chok.jpg"
       ]
     },
     {
@@ -515,9 +515,9 @@
       "discountPercentage": 24.96,
       "rating": 4,
       "category": "Макаруны",
-      "thumbnail":  "./src/assets/products/karamel.jpg",
+      "thumbnail":  "/products/karamel.jpg",
       "images": [
-        "./src/assets/products/karamel.jpg"
+        "/products/karamel.jpg"
       ]
     },
     {
@@ -528,9 +528,9 @@
       "discountPercentage": 24.96,
       "rating": 3,
       "category": "Аксессуары",
-      "thumbnail":  "./src/assets/products/korobka.jpg",
+      "thumbnail":  "/products/korobka.jpg",
       "images": [
-        "./src/assets/products/korobka.jpg"
+        "/products/korobka.jpg"
       ]
     },
     {
@@ -541,9 +541,9 @@
       "discountPercentage": 24.96,
       "rating": 3.5,
       "category": "Аксессуары",
-      "thumbnail":  "./src/assets/products/figurki.jpg",
+      "thumbnail":  "/products/figurki.jpg",
       "images": [
-        "./src/assets/products/figurki.jpg"
+        "/products/figurki.jpg"
       ]
     },
     {
@@ -554,9 +554,9 @@
       "discountPercentage": 24.96,
       "rating": 4.5,
       "category": "Аксессуары",
-      "thumbnail":  "./src/assets/products/svechi.jpg",
+      "thumbnail":  "/products/svechi.jpg",
       "images": [
-        "./src/assets/products/svechi.jpg"
+        "/products/svechi.jpg"
       ]
     },
     {
@@ -567,9 +567,9 @@
       "discountPercentage": 24.96,
       "rating": 4.5,
       "category": "Аксессуары",
-      "thumbnail":  "./src/assets/products/topper.jpg",
+      "thumbnail":  "/products/topper.jpg",
       "images": [
-        "./src/assets/products/topper.jpg"
+        "/products/topper.jpg"
       ]
     },
     {
@@ -580,9 +580,9 @@
       "discountPercentage": 24.96,
       "rating": 5,
       "category": "Аксессуары",
-      "thumbnail":  "./src/assets/products/konfety.jpg",
+      "thumbnail":  "/products/konfety.jpg",
       "images": [
-        "./src/assets/products/konfety.jpgк"
+        "/products/konfety.jpgк"
       ]
     }
   ],
